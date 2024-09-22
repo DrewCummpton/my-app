@@ -150,3 +150,31 @@ p {
 span {
     font-size:15.75px;
 }
+
+form { 
+    width: 40%; 
+    font-family: Cormorant Garamond, serif; 
+    font-weight: 600; 
+    background-image: url("https://www.transparenttextures.com/patterns/paper-fibers.png"); 
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .4); 
+    margin: 8px auto;
+} 
+ 
+.firstNameInput { 
+    margin: 0px 4.2vw; 
+    padding: 2px;
+} 
+ 
+.lastNameInput { 
+    margin: 0px 4.5vw;
+    padding: 3px;
+}      
+ 
+.phoneNumberInput { 
+    margin: 0px 2.2vw;
+    padding: 3px;
+}
+
+#label {
+    padding: 2px;
+}
