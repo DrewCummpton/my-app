@@ -9,9 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class ProjectsHomeComponent implements OnInit { 
-  firstName: string ="William"; 
-  lastName: string = "Wallace"; 
-  phoneNumber: string = "(201) 748-6000";
+  firstName: string ="Drew"; 
+  lastName: string = "Cumpton"; 
+  phoneNumber: string = "(801) 928-9223";
 
   setProperty(event: Event){ 
    let target = event.target as HTMLInputElement 
