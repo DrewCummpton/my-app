@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { NgFor, NgIf, NgSwitch, NgSwitchCase, NgSwitchDefault } from '@angular/common';
+import { HighlightDirective } from './highlight.directive';
 
 @Component({
   selector: 'app-services-home',
   standalone: true,
-  imports: [ NgFor, NgIf, NgSwitch, NgSwitchCase, NgSwitchDefault],
+  imports: [ NgFor, NgIf, NgSwitch, NgSwitchCase, NgSwitchDefault, HighlightDirective],
   templateUrl: './services-home.component.html',
   styleUrl: './services-home.component.css'
 })
